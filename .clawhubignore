@@ -1,0 +1,9 @@
+.git
+.venv
+.agents
+.claude
+src
+tests
+scripts
+__pycache__
+*.pyc

@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+.venv310/
+dist/
+build/
+.venv/
+.agents/
+.claude/
+.venv/
+.git/
+__pycache__/
