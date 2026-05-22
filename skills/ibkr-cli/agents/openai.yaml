@@ -1,7 +1,7 @@
 interface:
   display_name: "IBKR CLI"
   short_description: "Run local ibkr-cli commands for IBKR gateway health, account checks, quotes, and preview-first trades."
-  default_prompt: "Start by initializing ibkr-cli for this machine: check whether ibkr-cli, Docker, TWS or IB Gateway, and an IBKR config already exist. If Docker is available, prefer a managed gateway. If Docker is unavailable, guide me through the minimum TWS or IB Gateway setup, verify connectivity, then continue with account checks, quotes, or preview-first trades."
+  default_prompt: "Use ibkr-cli with minimum friction: first reuse any working profile or managed gateway, then run the user's requested account, quote, or preview-trade command directly. Only initialize or diagnose when no working connection exists or the command fails. Prefer preview by default and require explicit confirmation for submit."
 
 policy:
   allow_implicit_invocation: true
